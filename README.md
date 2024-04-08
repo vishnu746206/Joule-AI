@@ -1,21 +1,21 @@
 # Joule-AI
 # $\textcolor{blue}{\text{Joule\ Transactional\ Test\ Scripts}}$
 
-![image](https://github.wdf.sap.corp/storage/user/139934/files/d033f717-15d5-46e9-ad6a-37e2b34a2a79)
+![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/9e59fee1-7cb5-4704-963a-5a5d77126e9f)
 
 
 ## **Joule Transactional Test Scripts**
 
 Guidance on Navigating the Use Cases
 
-Now that you have completed the setup of Joule Co Pilot on your SuccessFactors Instance, it is now time for you to ensure all the Joule Use Cases are functioning properly in your environment. 
+Now that you have completed the setup of Joule Co-Pilot on your SuccessFactors Instance, it is time to ensure all the Joule Use Cases are functioning properly in your environment. 
 
-To facilitate through the testing, we have consolidated the Transactional Use Cases of Joule, each with a detailed description of the specific scenarios. As we continue to develop and deliver the new use cases, you can visit the Help Page for Transactional Use Cases of Joule for an exhaustive list of the delivered functionalities.
+To facilitate through the testing, we have consolidated the Transactional Use Cases of Joule, each with a detailed description of the specific scenarios. As we continue to develop and deliver new use cases, you can visit the Help Page for Transactional Use Cases of Joule for an exhaustive list of the delivered functionalities.
 
 https://help.sap.com/docs/joule/capabilities-guide/transactional-use-cases 
  
 Please note that for the use cases to function as intended, the following prerequisites must be met:
-1.	The required product /module in SuccessFactors to be live, with data available. 
+1.	The required product /module in SuccessFactors is to be live, with data available. 
 2.	The Employee Central Quick Actions to be configured for the specific scenario requested.
 3.	The necessary Permissions for the User to be in place to access the data being requested.
 4.	The Joule activation has been completed based on the Getting Started Guide 
