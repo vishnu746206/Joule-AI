@@ -1,21 +1,21 @@
-# Joule-AI
-# $\textcolor{blue}{\text{Joule\ Transactional\ Test\ Scripts}}$
+## $\textcolor{blue}{\text{Joule Transactional Test Scripts}}$
 
-![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/9e59fee1-7cb5-4704-963a-5a5d77126e9f)
+![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/fa19742d-eb00-4471-bd89-2adfedd09b3b)
+
 
 
 ## **Joule Transactional Test Scripts**
 
-Guidance on Navigating the Use Cases
+## Guidance on Navigating the Use Cases
 
-Now that you have completed the setup of Joule Co-Pilot on your SuccessFactors Instance, it is time to ensure all the Joule Use Cases are functioning properly in your environment. 
+Now that you have completed the setup of Joule Co Pilot on your SuccessFactors Instance, it is now time for you to ensure all the Joule Use Cases are functioning properly in your environment. 
 
-To facilitate through the testing, we have consolidated the Transactional Use Cases of Joule, each with a detailed description of the specific scenarios. As we continue to develop and deliver new use cases, you can visit the Help Page for Transactional Use Cases of Joule for an exhaustive list of the delivered functionalities.
+To facilitate through the testing, we have consolidated the Transactional Use Cases of Joule, each with a detailed description of the specific scenarios. As we continue to develop and deliver the new use cases, you can visit the Help Page for Transactional Use Cases of Joule for an exhaustive list of the delivered functionalities.
 
 https://help.sap.com/docs/joule/capabilities-guide/transactional-use-cases 
  
 Please note that for the use cases to function as intended, the following prerequisites must be met:
-1.	The required product /module in SuccessFactors is to be live, with data available. 
+1.	The required product /module in SuccessFactors to be live, with data available. 
 2.	The Employee Central Quick Actions to be configured for the specific scenario requested.
 3.	The necessary Permissions for the User to be in place to access the data being requested.
 4.	The Joule activation has been completed based on the Getting Started Guide 
@@ -68,74 +68,94 @@ Furthermore, please don't hesitate to reach out to us at SAP_SuccessFactors_Joul
 
 | Step                                                                                                     | Expected Result | Screenshot |
 |----------------------------------------------------------------------------------------------------------|-----------------|--------|
-| Upon launching Joule, input "Approve spot award" into the query bar labeled "How can I assist you?"      |The following message is displayed alongside the most recent request. "I can only get you MDF workflow related requests, which might include the spot award requests you're looking for. Let's start with the latest one." with options to Approve, Approve with Comments and Skip.| ![image](https://github.wdf.sap.corp/storage/user/139934/files/30b9c109-d538-4bac-befe-4acd54cb01ce) |
+| Upon launching Joule, input "Approve spot award" into the query bar labeled "How can I assist you?"      |The following message is displayed alongside the most recent request. "I can only get you MDF workflow-related requests, which might include the spot award requests you're looking for. Let's start with the latest one." with options to Approve, Approve with Comments and Skip.| ![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/9eeb2a41-273b-432f-b691-648690cdb598)|
 
 # Create spot award
 
 | Step                                                                                                     | Expected Result | Screenshot |
 |----------------------------------------------------------------------------------------------------------|-----------------|--------|
-| Upon launching Joule, input "Create spot award" into the query bar labeled "How can I assist you?" | The prompt "Who do you want to Nominate" appears.|![image](https://github.wdf.sap.corp/storage/user/139934/files/5156322b-bf97-4c6a-9492-84b3a476816e)
-|Type in Employee Name) | Confirm the employee details. | ![image](https://github.wdf.sap.corp/storage/user/139934/files/1af14e9a-400b-4a2c-8e55-afdd9b8541a3) |
-|     |List of Awards is shown along with the message "Select one award program." | ![image](https://github.wdf.sap.corp/storage/user/139934/files/6a2eaa6d-f284-4a8a-8ed3-67ef4fda718f) |
-| Select an award program. | The prompt "Leave a message for the award recipient." appears | ![image](https://github.wdf.sap.corp/storage/user/139934/files/cdecc401-4e2b-4e7f-b5fd-b9504c0213a9) 
-| Type in a message. | The given spot award information is displayed with the options "Yes, send in" and "No." | ![image](https://github.wdf.sap.corp/storage/user/139934/files/28ea4a77-6db1-4e86-bec0-20701a0080ee) |
+| Upon launching Joule, input "Create spot award" into the query bar labeled "How can I assist you?" | The prompt "Who do you want to Nominate" appears.|![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/8c6b4331-aa73-404b-a9c1-8e9ae87dcde1)
+|Type in Employee Name) | Confirm the employee details. | ![image]![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/ec91c200-9e1d-4fa9-8578-c63ee938081e)|
+|     |List of Awards is shown along with the message "Select one award program." |![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/efee181c-7f30-45f0-af71-61fc5dc9e342)|
+| Select an award program. | The prompt "Leave a message for the award recipient." appears | ![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/3ccb77ff-96ab-4585-abfa-6f015f6a4ad6)
+
+| Type in a message. | The given spot award information is displayed with the options "Yes, send in" and "No." | ![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/aa1c1145-d3ff-41da-8fef-d6ba4e8a09bd)|
 
 # Approve and reject time-off requests
 
 | Step| Expected Result | Screenshot |
 |-----|-----------------|------------|
-| Upon launching Joule, input "Approve and reject time-off requests" into the query bar labeled "How can I assist you?". | The pending requests for approval are listed alongside the options to either approve or decline them. | ![image](https://github.wdf.sap.corp/storage/user/139934/files/d7626ed1-3a17-4415-8461-ae0452c08467) |
+| Upon launching Joule, input "Approve and reject time-off requests" into the query bar labeled "How can I assist you?". | The pending requests for approval are listed alongside the options to either approve or decline them. |![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/371fa79c-8d6c-425f-b260-bc8ee2631ea3)|
 
 # Approve Employee Central workflow requests.
 
 | Step                                                                                                     | Expected Result | Screenshot |
 |----------------------------------------------------------------------------------------------------------|-----------------|--------|
-| Upon launching Joule, input "Approve Employee central workflow" into the query bar labeled "How can I assist you?". | The message "No requests need your approval right now. Let's try something else" is displayed since there are no pending requests for approval.|![image](https://github.wdf.sap.corp/storage/user/139934/files/fabb79ac-ec47-4255-89e2-fa5c67b3d71b) 
+| Upon launching Joule, input "Approve Employee central workflow" into the query bar labeled "How can I assist you?". | The message "No requests need your approval right now. Let's try something else" is displayed since there are no pending requests for approval.|![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/adfed341-e622-4f7c-9f12-8f358616b856)
+
 
 # Change cost center
 
 | Step                                                                                                     | Expected Result | Screenshot |
 |----------------------------------------------------------------------------------------------------------|-----------------|--------|
-|Upon launching Joule, input "Change cost center" into the query bar labeled "How can I assist you?. | The prompt "Whose information do you want to change?" appears.| ![image](https://github.wdf.sap.corp/storage/user/139934/files/5489b7a3-e9f7-45fd-894c-b78820f23e33) 
-| Type in Employee Name | Employee information is displayed. Press the "Select" button, triggering the message "When do you want the change to take effect". | ![image](https://github.wdf.sap.corp/storage/user/139934/files/9529d495-fe61-4f75-8b1a-5b8b56a26a3f) |
-| Choose between "Pick a date" or "Today" options. Date format should be yyyy-MM-dd, then proceed to Submit. |The current cost center value is displayed as: "Jada Baker's current Cost Center value is Product Management (US10_PROD). What is the updated value?" A list of new values is also provided alongside this information. | ![image](https://github.wdf.sap.corp/storage/user/139934/files/ccd000f3-491c-48d4-865d-4a10a82681b9) |
-| Choose one of the values, for instance, BestRun Comp and Benefits (US10_M7). | The chosen details are displayed once more, accompanied by two options: "Yes, please" and "No, discard changes". | ![image](https://github.wdf.sap.corp/storage/user/139934/files/b06f8f7c-92f8-4344-a5c0-a0c2250bca10) |
+|Upon launching Joule, input "Change cost center" into the query bar labeled "How can I assist you?. | The prompt "Whose information do you want to change?" appears.| ![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/3c3d0c25-cb75-4680-987b-a2c60f851f53)
+
+| Type in Employee Name | Employee information is displayed. Press the "Select" button, triggering the message "When do you want the change to take effect". |![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/b1672f1c-c70b-4d44-be8b-ff497cb56d75)
+
+| Choose between "Pick a date" or "Today" options. Date format should be yyyy-MM-dd, then proceed to Submit. |The current cost center value is displayed as: "Jada Baker's current Cost Center value is Product Management (US10_PROD). What is the updated value?" A list of new values is also provided alongside this information. |![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/0b96904b-98ee-4e18-b3a8-dadc00861a23)
+
+| Choose one of the values, for instance, BestRun Comp and Benefits (US10_M7). | The chosen details are displayed once more, accompanied by two options: "Yes, please" and "No, discard changes". | ![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/62fe75ee-274c-4602-a34d-079640602c2c)
+ |
 
 # Change chosen name
 
 | Step                                                                                                     | Expected Result | Screenshot |
 |----------------------------------------------------------------------------------------------------------|-----------------|--------|
-|Upon launching Joule, input "Change chosen name" into the query bar labelled "How can I assist you?". | The prompt "Whose information do you want to change?" appears. | ![image](https://github.wdf.sap.corp/storage/user/139934/files/7eafd061-5645-4651-ba13-7597b58780d4)|
-| Type in Employee Name/Type in “mine” if you want to change your own data. | Employee information is displayed. Press the "Select" button, triggering the message "When do you want the change to take effect". | ![image](https://github.wdf.sap.corp/storage/user/139934/files/c9de50cc-956b-4cee-8e56-fb2c03bdfef3) |
-| Choose between "Pick a date" or "Today" options. Date format should be yyyy-MM-dd, then proceed to Submit. | The Current details are displayed as "Ben Shervin 's current Preferred Name value is Ben. What's the new value? accompanied by 2 options "Leave it blank" and "Skip this step". |![image](https://github.wdf.sap.corp/storage/user/139934/files/144c3d14-cd2b-486e-b07c-3154f711f634)|
-| Type in the new value or choose between the options. |The updated details, along with the prompt "Would you like to submit your request?", are presented. Select between the options "Yes, please" and "No, discard changes" to finalize the process. | ![image](https://github.wdf.sap.corp/storage/user/139934/files/2051db14-f177-49f7-a9c7-138c1e6fc6be)|
+|Upon launching Joule, input "Change chosen name" into the query bar labelled "How can I assist you?". | The prompt "Whose information do you want to change?" appears. ![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/d55ee7ee-b209-4ea7-b77f-18b248cc49c0)
+
+| Type in Employee Name/Type in “mine” if you want to change your own data. | Employee information is displayed. Press the "Select" button, triggering the message "When do you want the change to take effect". | ![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/51c5eb95-48e8-4b86-997a-2f5f8a59d64a)
+
+| Choose between "Pick a date" or "Today" options. Date format should be yyyy-MM-dd, then proceed to Submit. | The Current details are displayed as "Ben Shervin 's current Preferred Name value is Ben. What's the new value? accompanied by 2 options "Leave it blank" and "Skip this step". |![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/c730d0f8-2ad3-49f0-9817-1eb2d27c6932)
+
+| Type in the new value or choose between the options. |The updated details, along with the prompt "Would you like to submit your request?", are presented. Select between the options "Yes, please" and "No, discard changes" to finalize the process. |![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/7f95c4aa-4333-410b-9975-1b7e040b161a)
+
 
 # Change job
 
 | Step                                                                                                     | Expected Result | Screenshot |
 |----------------------------------------------------------------------------------------------------------|-----------------|--------|
-|Upon launching Joule, input "Change job" into the query bar labeled "How can I assist you?". | The prompt "Whose information do you want to change?" appears.| ![image](https://github.wdf.sap.corp/storage/user/139934/files/5de8474d-521c-4efc-b6c6-e706cb8c7d9c) |
-| Type in Employee Name / Type in “mine” if you want to change your own data.| Employee information is displayed. Press the "Select" button, triggering the message "When do you want the change to take effect". | ![image](https://github.wdf.sap.corp/storage/user/139934/files/88fcf7d9-99e9-4a07-acd9-c2604f3ea997)|
-| Choose between "Pick a date" or "Today" options. Date format should be yyyy-MM-dd, then proceed to Submit. | The current Job classification value is displayed as: "Ben Shervin 's current Job Classification value is Management & Planning (50070999). What's the new value?" A list of new values is also provided alongside this information. | ![image](https://github.wdf.sap.corp/storage/user/139934/files/ba940794-8473-41ac-af03-c76ef62e02fe) |
-| Choose one of the values, for instance, Craft Workers (50071001). | A subsequent message appears requesting the "New Job Title Value," with the alternative option to "Skip this step. | ![image](https://github.wdf.sap.corp/storage/user/139934/files/34597bca-eac3-457c-a748-9fbdf7816e32)|
-| Type the New job title value or skip the step. | By selecting "Skip this step," the revised details are once again displayed for confirmation. Choose either to proceed with "Yes, please" or to discard the changes with "No, discard changes. | ![image](https://github.wdf.sap.corp/storage/user/139934/files/e952deb1-92cf-4251-b93b-e8ef906ccb8e) |
+|Upon launching Joule, input "Change job" into the query bar labeled "How can I assist you?". | The prompt "Whose information do you want to change?" appears.|![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/3f708660-6c12-4e89-b9e2-89e7581ddf94)
+
+| Type in Employee Name / Type in “mine” if you want to change your own data.| Employee information is displayed. Press the "Select" button, triggering the message "When do you want the change to take effect". | ![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/b5ee5891-c7c8-4124-98ed-3471e84de1d0)
+
+| Choose between "Pick a date" or "Today" options. Date format should be yyyy-MM-dd, then proceed to Submit. | The current Job classification value is displayed as: "Ben Shervin 's current Job Classification value is Management & Planning (50070999). What's the new value?" A list of new values is also provided alongside this information. | ![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/0cf68fbb-c55f-476e-8867-afd725535f46)
+
+| Choose one of the values, for instance, Craft Workers (50071001). | A subsequent message appears requesting the "New Job Title Value," with the alternative option to "Skip this step. |![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/9871df56-e06a-4f3a-853c-88769e3ac623)
+
+| Type the New job title value or skip the step. | By selecting "Skip this step," the revised details are once again displayed for confirmation. Choose either to proceed with "Yes, please" or to discard the changes with "No, discard changes. |![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/514caa70-5734-473a-a1c0-94e70013f65a)
+
 
 # Change legal name
 
 | Step                                                                                                     | Expected Result | Screenshot |
 |----------------------------------------------------------------------------------------------------------|-----------------|--------|
-|Upon launching Joule, input "Change legal name" into the query bar labeled "How can I assist you?". | The prompt "Whose information do you want to change?" appears.| ![image](https://github.wdf.sap.corp/storage/user/139934/files/0aee374f-273b-49fb-a5f3-0ccd580040f1) |
-| Type in Employee Name Type in “mine” if you want to change your own data. | Employee information is displayed. Press the "Select" button, triggering the message "When do you want the change to take effect". | ![image](https://github.wdf.sap.corp/storage/user/139934/files/0f87ae90-e1e2-4789-a8f5-a536f8ddceb9)|
-| Choose between "Pick a date" or "Today" options. Date format should be yyyy-MM-dd, then proceed to Submit. | A prompt is displayed requesting the new First Name value, stating "Jada Baker's current First Name value is Jada. What is the new value?" If no changes are necessary, an option to skip this step is provided.| !|[image](https://github.wdf.sap.corp/storage/user/139934/files/b5d15bc7-b24d-48ed-a9cb-9c433d978315)|
-|Type in the value or skip the step. | Right after, a prompt appears asking for the new middle name value, accompanied by an option to skip this step. | ![image](https://github.wdf.sap.corp/storage/user/139934/files/b91685fb-c9aa-4810-93c7-11ab2c64cd20)|
-| Type in the value or skip the step. | A prompt is displayed requesting for the **new Last name value**, If no changes are necessary, an option to skip this step is provided.| ![image](https://github.wdf.sap.corp/storage/user/139934/files/86a7249e-06ee-48f8-9139-338701c663d4)|
+|Upon launching Joule, input "Change legal name" into the query bar labeled "How can I assist you?". | The prompt "Whose information do you want to change?" appears.|![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/8fca2bcb-4d94-48b3-bfc3-0e0cf485366f)
+
+| Type in Employee Name Type in “mine” if you want to change your own data. | Employee information is displayed. Press the "Select" button, triggering the message "When do you want the change to take effect". | ![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/3777c3d4-fefe-4f86-abd6-db18fd6eab12)
+
+| Choose between "Pick a date" or "Today" options. Date format should be yyyy-MM-dd, then proceed to Submit. | A prompt is displayed requesting the new First Name value, stating "Jada Baker's current First Name value is Jada. What is the new value?" If no changes are necessary, an option to skip this step is provided.|![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/41409696-2a9c-4b5f-bc70-d23dbf0a7500)
+
+|Type in the value or skip the step. | Right after, a prompt appears asking for the new middle name value, accompanied by an option to skip this step. | ![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/ba58237b-2ab3-48c0-8b94-b2c2ce499b59)
+
+| Type in the value or skip the step. | A prompt is displayed requesting for the **new Last name value**, If no changes are necessary, an option to skip this step is provided.|![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/8888e281-536f-49ba-802a-10289ca0ddf3)
 |The updated details starting from the provided effective date are displayed, along with the options to either proceed with the changes or discard them.| 
 
 # Change location
 
 | Step                                                                                                     | Expected Result | Screenshot |
 |----------------------------------------------------------------------------------------------------------|-----------------|--------|
-|Upon launching Joule, input "Change location" into the query bar labeled "How can I assist you?".| The prompt "Whose information do you want to change?" appears.| ![image](https://github.wdf.sap.corp/storage/user/139934/files/06b220cd-207e-4762-9586-6de4cb9c0e24)|
+|Upon launching Joule, input "Change location" into the query bar labeled "How can I assist you?".| The prompt "Whose information do you want to change?" appears.|![image](https://github.com/vishnu746206/Joule-AI/assets/166359300/4cc25991-f4c1-4bd5-bb7f-2028c0476ea5)
+
 | Type in Employee Name/ Type in “mine” if you want to change your own data. |Employee information is displayed. Press the "Select" button, triggering the message "When do you want the change to take effect". | ![image](https://github.wdf.sap.corp/storage/user/139934/files/9a31d897-5478-42b5-9e9e-18607e51ca93)|
 | Choose between "Pick a date" or "Today" options. Date format should be yyyy-mm-dd, then proceed to Submit.|A prompt is displayed requesting the new current location value, stating "Ben Shervin 's current Location value is Philadelphia (1710-2018). What's the new value?" A list of new values is also provided alongside this information.| ![image](https://github.wdf.sap.corp/storage/user/139934/files/b7751547-f9fc-401b-806b-a4b1677bade4)|
 | Choose one of the values, For Instance, Boston (1710-2017) | A prompt is displayed requesting the new Time zone value, stating "Ben Shervin 's current Timezone value is US/Eastern (GMT-04:00). What's the new value?" A list of new values is also provided alongside this information.| ![image](https://github.wdf.sap.corp/storage/user/139934/files/3301143a-b080-485b-8734-a42f2277cdff)|
@@ -326,6 +346,7 @@ Furthermore, please don't hesitate to reach out to us at SAP_SuccessFactors_Joul
 |----------------------------------------------------------------------------------------------------------|-----------------|--------|
 |Upon launching Joule, input "Clock in clock out" into the query bar labeled "How can I assist you?".|The prompt "Which time event would you like to record?" appears.|![image](https://github.wdf.sap.corp/storage/user/139934/files/a14d9a74-3f3b-4646-ad53-55fdadb52600)|
 | Select the option.|The event time is recorded.[And the same applies to Clock out as well]| ![image](https://github.wdf.sap.corp/storage/user/139934/files/f50c03a1-0f28-4cbb-98b3-e9b4af6e4ea3)|
+
 
 
 
